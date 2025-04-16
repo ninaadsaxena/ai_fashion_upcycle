@@ -1,0 +1,19 @@
+upcycle-ai/
+├── .env.local
+├── next.config.js
+├── app/
+│   ├── (main)/page.jsx          # Homepage
+│   ├── upload/page.jsx          # Upload flow
+│   ├── tailors/page.jsx         # Tailor directory
+│   └── api/
+│       ├── analyze/route.js     # AI analysis
+│       ├── mockup/route.js      # Mockey.ai
+│       └── tailors/route.js     # Grist API
+├── components/
+│   ├── ImageUpload.jsx          # Appwrite integration
+│   ├── SuggestionBox.jsx        # HuggingChat response
+│   └── TailorList.jsx           # Grist data display
+├── lib/
+│   ├── appwrite.js              # Appwrite config
+│   └── grist.js                 # Grist API helper
+└── package.json
